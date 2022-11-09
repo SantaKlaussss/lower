@@ -1,0 +1,373 @@
+body {
+    margin: 0 auto;
+    min-width: 1170px;
+
+}
+
+header {
+    height: 100vh;
+    background-image: url("/img/fon-header.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*navigation*/
+
+.nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.nav-items {
+    width: 1000px;
+    height: 30px;
+    position: relative;
+    top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0;
+    font-size: ;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    height: 100px;
+}
+
+.logo-img {
+    margin-top: 40px;
+}
+
+.social {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    margin-left:0;
+    top: 33px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.social a{
+    text-decoration: none;
+}
+
+.social a:hover path,
+.social a:focus path {
+    fill:black;
+}
+
+.line {
+    border-top: 3px solid #ffffff;
+    color: #ffffff;
+    position: absolute;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 156px;
+}
+
+.title-info {
+    position: relative;
+    top: 60px;
+}
+
+.title-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/*block*/
+
+.block {
+    position: relative;
+    top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-item {
+    width: 300px;
+    height: 150px;
+    margin-right: 12px;
+    background-color: #948aed
+}
+
+.block-title {
+    position:absolute;
+    color: #ffffff;
+    font-size: 14px;
+    top: 20px;
+    margin-left: 20px;
+    font-family: 'Poiret One', cursive;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.block-text {
+    position: relative;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    top: 60px;
+    font-family: 'Poiret One', cursive;
+    padding-left: 5px;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+
+/*features*/
+
+.features {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+}
+
+.features-item {
+    margin-left: 40px;
+}
+
+.fuaters-description {
+    position: relative;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    bottom: 90px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fuaters-description span{
+    color: black;
+    font-weight: 700;
+}
+
+/*work*/
+
+.our-work {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.work-images {
+    position: relative;
+    left: 70px;
+    margin-top: 70px;
+}
+
+.work-info {
+    width: 450px;
+    background-color: #F7ECE1;
+    font-family: 'Poiret One', cursive;
+}
+
+.info-title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.info-size {
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.sub-title {
+    margin-bottom: 30px;
+}
+
+.title-2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*couch*/
+
+.couch-title {
+    text-align: start;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 40px;
+}
+
+.name-couch {
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.couch-item {
+    margin-left: 30px;
+    font-family: 'Poiret One', cursive;
+    width: 160px;
+}
+
+.couch-item:first-child {
+    margin-left: 0;
+}
+
+.couch-description {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.couch-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*price*/
+
+.price {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-items {
+    display: block;
+}
+
+.price-info {
+    color: #fff;
+    padding-top: 15px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.price-title {
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.price-block {
+    margin-bottom: 30px;
+    width: 450px;
+    height: 50px;
+    background-color: #8D86C9;
+    box-shadow: 5px 8px 15px;
+}
+
+.price-block svg {
+    position: relative;
+    left: 380px;
+    top: -22px;
+}
+
+.price-image {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    left: 600px;
+    top: 40px;
+    box-shadow: 5px 5px 10px;
+}
+
+.price-left {
+    position: relative;
+    left: -400px;
+}
+
+.price-description {
+    width: 200px;
+    order: 3;
+    padding-top: 100px;
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px;
+}
+
+.price-description span {
+    padding-left: 50px;
+    line-height: 140px;
+}
+
+
+/*footer*/
+
+footer {
+    font-family: 'Poiret One', cursive; 
+    margin-top: 100px;
+    background-color: #F7ECE1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-footer a{
+    text-decoration: none;
+}
+
+.social-footer a:hover path,
+.social-footer a:focus path {
+    fill:black;
+}
+
+.nav-items-footer .nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.nav-items-footer {
+    width: 600px;
+    text-align: center;
+    align-self: center;
+
+}
+
+.footer-description {
+    width: 200px;
+    color: #333333;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-footer {
+    align-self: center;
+    text-align: center;
+}
